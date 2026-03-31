@@ -32,7 +32,7 @@ npm start
 Create a .env file:
 
 PORT=3000
-MONGO_URI=
+MONGO_URI=mongoose.connect("mongodb://localhost:27017/miniproject");
 JWT_SECRET=secretkey
 🚀 Usage
 Register a new user
